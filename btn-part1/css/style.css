@@ -1,0 +1,134 @@
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 2.3;
+  margin: 10px;
+}
+
+/* BUTTON01 */
+.btn-first {
+  width: 120px;
+  height: 50px;
+  background-color: #fff;
+  border: 2px solid #7451c0;
+  border-radius: 2px;
+  padding: 0 0 0 10px;
+}
+.btn-first img {
+  margin: 9px 9px;
+}
+
+/* BUTTON02 */
+.btn-second {
+  width: 120px;
+  height: 50px;
+  background-color: #7451c0;
+  color: #fff;
+  border-radius: 2px;
+  transition: 0.1s;
+  padding: 0 0 0 10px;
+}
+.btn-second:hover {
+  border-radius: 25px;
+  background: #a67cff;
+}
+.btn-second img {
+  margin: 9px 9px;
+}
+
+/* BUTTON03 */
+.container {
+  width: 1000px;
+}
+.btn-third {
+  width: calc(100% - 70%);
+  height: 50px;
+  background-color: #7451c0;
+  color: #fff;
+  border-radius: 2px;
+  padding: 0 0 0 10px;
+}
+.btn-third img {
+  margin: 9px 9px;
+}
+
+/*BUTTON04 */
+.btn-group01 {
+  text-align: center;
+  display: flex;
+}
+.btn-group01 .btn-fourth {
+  width: 120px;
+  height: 50px;
+  background-color: #7451c0;
+  color: #fff;
+  padding: 5px 0;
+}
+.btn-group01 .btn-fourth:hover {
+  background: #a67cff;
+}
+
+/* BUTTON05 */
+.btn-fifth {
+  width: 120px;
+  height: 50px;
+  background-color: #7451c0;
+  color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  padding: 5px 0;
+}
+.btn-fifth:hover {
+  background: #a67cff;
+}
+
+/* CARD */
+.card {
+  display: flex;
+  width: 420px;
+  padding: 35px 20px 35px 35px;
+  border: 0.5px solid #666;
+}
+.left-icon-area {
+  width: 35px;
+  height: 40px;
+}
+.card p {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #666;
+}
+.card h3 {
+  line-height: 0.7;
+  font-size: 1rem;
+  color: #333;
+  margin: 0 0 8px;
+}
+.registration-btn {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #a67cff;
+}
+.registration-btn::after {
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+  content: "\f138";
+  color: #a67cff;
+}
+.text-area {
+  height: 80px;
+  margin: 0 30px;
+}
+.login-btn {
+  font-size: 1rem;
+  line-height: 1.2;
+  text-align: center;
+  width: 100px;
+  height: 80px;
+  padding: 20px 0;
+  box-sizing: border-box;
+  background-color: #7451c0;
+  color: #fff;
+  border-radius: 2px;
+}
